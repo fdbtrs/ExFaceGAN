@@ -68,7 +68,7 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="PyTorch Master MoCo Training")
-    parser.add_argument("--num_imgs", type=int, default=100, help="number of images")
+    parser.add_argument("--num_imgs", type=int, default=11000, help="number of images")
     parser.add_argument(
         "--offset", type=int, default=0, help="naming offset to create more images"
     )
@@ -76,19 +76,19 @@ if __name__ == "__main__":
         "--lat_path",
         type=str,
         default="None",
-        help="/data/maklemt/synthetic_imgs/StyleGAN_with_w_latents/z_latents or None for random latents",
+        help="/data/synthetic_imgs/StyleGAN3_with_w_latents/w_latents or None for random latents",
     )
-    parser.add_argument("--batchsize", type=int, default=1, help="batch size 16")
+    parser.add_argument("--batchsize", type=int, default=8, help="batch size")
     parser.add_argument(
         "--modelname",
         type=str,
-        default="gan_control",
+        default="stylegan3_ffhq",
         help="stylegan_ffhq, stylegan2_ffhq, stylegan3_ffhq, gan_control",
     )
     parser.add_argument(
         "--save_path",
         type=str,
-        default="/data/maklemt/synthetic_imgs/test",
+        default="/data/maklemt/synthetic_imgs/StyleGAN3_with_w_latents",
     )
     args = parser.parse_args()
     main(args)

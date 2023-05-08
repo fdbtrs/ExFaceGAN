@@ -5,7 +5,7 @@
 ## Requirements for DIRGAN
 It is recommented creating a virtual environment with Python 3.6 and *`requirements.txt`*
 
-Download pretrained StyleGAN generator models from [this link](https://github.com/NVlabs/stylegan3) while following their licence and place *stylegan3-r-ffhq-1024x1024.pkl* and *stylegan2-ffhq-1024x1024.pkl* in *`generators/pretrain/`*.
+Download pretrained StyleGAN generator models from [this link](https://github.com/NVlabs/stylegan3) while following their licence and place `stylegan3-r-ffhq-1024x1024.pkl` and `stylegan2-ffhq-1024x1024.pkl` in *`generators/pretrain/`*.
 
 Download pretrained GANControl model from [this link](https://github.com/amazon-science/gan-control) while following their licence and extract it in *`generators/GANControl_resources/gan_models/`*.
 
