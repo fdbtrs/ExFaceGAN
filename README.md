@@ -61,7 +61,7 @@ Given genuine, impostor scores, *`visualization/dataset_EER.sh`* calculates mult
 ## Citation ##
 If you use any of the code provided in this repository or the models provided, please cite the following paper:
 ```
-@InProceedings{Boutros_2023_CVPR,
+@InProceedings{Boutros_2023_IJCB,
     author    = {Boutros, Fadi and Klemt, Marcel and Fang, Meiling and Arjan Kuijper and Damer, Naser},
     title     = {ExFaceGAN: Exploring Identity Directions in GAN’s Learned Latent Space for
 Synthetic Identity Generation},
