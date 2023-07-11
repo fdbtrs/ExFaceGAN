@@ -1,4 +1,5 @@
-# ExFaceGAN: Exploring Identity Directions in GAN’s Learned Latent Space for Synthetic Identity Generation
+## ExFaceGAN: Exploring Identity Directions in GAN’s Learned Latent Space for Synthetic Identity Generation
+## Accepted at IJCB 2023
 
 ![DIRGAN Overview](images/Overview_DIRGAN_Framework.png?raw=true)
 
