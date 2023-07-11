@@ -3,11 +3,11 @@
 ![DIRGAN Overview](images/Overview_DIRGAN_Framework.png?raw=true)
 
 ## Requirements for DIRGAN
-It is recommented creating a virtual environment with Python 3.6 and *`requirements.txt`*
+It is recommended to create a virtual environment with Python 3.6 and *`requirements.txt`*
 
-Download pretrained StyleGAN generator models from [this link](https://github.com/NVlabs/stylegan3) while following their licence and place `stylegan3-r-ffhq-1024x1024.pkl` and `stylegan2-ffhq-1024x1024.pkl` in *`generators/pretrain/`*.
+Download pretrained StyleGAN generator models from [this link](https://github.com/NVlabs/stylegan3) while following their license and place `stylegan3-r-ffhq-1024x1024.pkl` and `stylegan2-ffhq-1024x1024.pkl` in *`generators/pretrain/`*.
 
-Download pretrained GANControl model from [this link](https://github.com/amazon-science/gan-control) while following their licence and extract it in *`generators/GANControl_resources/gan_models/`*.
+Download the pretrained GANControl model from [this link](https://github.com/amazon-science/gan-control) while following their license and extract it in *`generators/GANControl_resources/gan_models/`*.
 
 ## Pipeline for Disentangling Identity Information and Generate Images
 1. Generate unconditional images
@@ -54,3 +54,25 @@ run.sh
 Given genuine, impostor scores, *`visualization/dataset_EER.sh`* calculates multiple metrics including EER, FMR, ...
 
 *`visualization/impact_of_max_off.py`* allows editing one latent code and plots cosine similarity between edited images and the reference.
+
+
+
+
+## Citation ##
+If you use any of the code provided in this repository or the models provided, please cite the following paper:
+```
+@InProceedings{Boutros_2023_CVPR,
+    author    = {Boutros, Fadi and Klemt, Marcel and Fang, Meiling and Arjan Kuijper and Damer, Naser},
+    title     = {ExFaceGAN: Exploring Identity Directions in GAN’s Learned Latent Space for
+Synthetic Identity Generation},
+    booktitle = {{IEEE} International Joint Conference on Biometrics, {IJCB} 2023},
+    month     = {September},
+    year      = {2023}
+}
+```
+
+
+## License ##
+
+This project is licensed under the terms of the Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license.
+Copyright (c) 2021 Fraunhofer Institute for Computer Graphics Research IGD Darmstadt
