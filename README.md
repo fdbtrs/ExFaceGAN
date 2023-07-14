@@ -1,9 +1,9 @@
 ## ExFaceGAN: Exploring Identity Directions in GAN’s Learned Latent Space for Synthetic Identity Generation
-## Accepted at IJCB 2023
+## Accepted at IJCB 2023  [Arxiv](https://arxiv.org/abs/2307.05151)
 
-![DIRGAN Overview](images/Overview_DIRGAN_Framework.png?raw=true)
+![ExFAceGAN Overview](images/Overview_DIRGAN_Framework.png?raw=true)
 
-## Requirements for DIRGAN
+## Requirements for ExFaceGAN
 It is recommended to create a virtual environment with Python 3.6 and *`requirements.txt`*
 
 Download pretrained StyleGAN generator models from [this link](https://github.com/NVlabs/stylegan3) while following their license and place `stylegan3-r-ffhq-1024x1024.pkl` and `stylegan2-ffhq-1024x1024.pkl` in *`generators/pretrain/`*.
